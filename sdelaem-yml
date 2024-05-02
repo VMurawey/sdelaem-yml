@@ -1,0 +1,355 @@
+<yml_catalog date="2024-05-02 16:20">
+<shop>
+<name>Сделаем</name>
+<company>Сделаем</company>
+<url>https://sdelaem.agency/</url>
+<email>hello@sdelaem.agency</email>
+<picture>https://i.postimg.cc/rsxgtNLm/image.png</picture>
+<description>Курсы по контент-маркетингу, копирайтингу и редактуре от агентства «Сделаем». Учим лучше писать и больше зарабатывать, прокачиваем авторов и редакторов</description>
+<currencies>
+<currency id="RUR" rate="1"/>
+</currencies>
+<!-- Наборы курсов, на которые будет ссылка в описании курса -->
+<sets>
+<set id="s1">
+<name>Бесплатные курсы</name>
+<url>https://sdelaem.agency/courses</url>
+</set>
+<set id="s2">
+<name>Платные курсы</name>
+<url>https://sdelaem.agency/courses</url>
+</set>
+</sets>
+<offers>
+<offer id="np-base">
+<name>Научим писать. Базовый курс</name>
+<url>https://sdelaem.agency/courses/nauchim-free</url>
+<categoryId>507</categoryId>
+<!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+<set-ids>s1</set-ids>
+<!-- Можно указать несколько наборов через запятую -->
+<!-- Общая цена курса -->
+<price>0</price>
+<currencyId>RUR</currencyId>
+<!-- Сроки курсов -->
+<param name="Продолжительность" unit="часы">72</param>
+<!-- Программа обучения -->
+<param name="План" order="1" unit="Unit 1">Цель и полезное действие</param>
+<param name="План" order="2" unit="Unit 2">План работы над текстом</param>
+<param name="План" order="3" unit="Unit 3">Где брать информацию</param>
+<param name="План" order="4" unit="Unit 4">Что нужно узнать, чтобы написать качественный текст</param>
+<param name="План" order="5" unit="Unit 5">Как провести интервью с заказчиком или экспертом</param>
+<param name="План" order="6" unit="Unit 6">Как продумать структуру текста</param>
+<param name="План" order="7" unit="Unit 7">Как согласовывать работу с клиентом</param>
+<param name="План" order="8" unit="Unit 8">Какие ошибки мешают авторам писать качественные тексты</param>
+<!-- Формат и методы обучения -->
+<param name="Формат обучения">Самостоятельно</param>
+<!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+<param name="Есть вебинары">false</param>
+<param name="Есть домашние работы">false</param>
+<param name="Есть видеоуроки">false</param>
+<param name="Есть текстовые уроки">true</param>
+<param name="Есть тренажеры">false</param>
+<param name="Есть сообщество">false</param>
+<!-- Параметры курса -->
+<param name="Сложность">Для новичков</param>
+<!-- Возможные значения - "Для новичков" или "Для опытных" -->
+<param name="Тип обучения">Курс</param>
+<!-- Возможные значения - "Курс" или "Профессия" -->
+<param name="Есть бесплатная часть">true</param>
+<!-- Описание курса -->
+<picture>https://i.postimg.cc/2SN0QJHx/Frame-1549-1.png</picture>
+<description>8 уроков о том, как писать тексты, которые приносят пользу бизнесу и за которые клиенты готовы хорошо платить.</description>
+</offer>
+<offer id="putevochka">
+    <name>Путевочка. Курс по отдыху</name>
+    <url>https://sdelaem.agency/courses/putevochka</url>
+    <categoryId>815</categoryId>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s1</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>0</price>
+    <currencyId>RUR</currencyId>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="часы">72</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Разбираемся</param>
+    <param name="План" order="2" unit="Unit 2">Планируем</param>
+    <param name="План" order="3" unit="Unit 3">Отдыхаем</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">false</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">false</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">false</param>
+    <!-- Параметры курса -->
+    <param name="Сложность">Для новичков</param>
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/jd1ZBBxp/Frame-2416.png</picture>
+    <description>Как выйти из режима работы 24/7, перестать винить себя за непродуктивность и научиться выделять время на отдых.</description>
+</offer>
+<offer id="vc-guide">
+        <name>Гайд по бизнес-статьям на VC.ru</name>
+        <url>https://sdelaem.agency/vc-guides</url>
+        <categoryId>507</categoryId>
+        <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+        <set-ids>s1</set-ids>
+        <!-- Можно указать несколько наборов через запятую -->
+        <!-- Общая цена курса -->
+        <price>0</price>
+        <currencyId>RUR</currencyId>
+        <!-- Сроки курсов -->
+        <param name="Продолжительность" unit="часы">72</param>
+        <!-- Программа обучения -->
+        <param name="План" order="1" unit="Unit 1">Подбираем удачную тему для статьи</param>
+        <param name="План" order="2" unit="Unit 2">Как написать интересный текст</param>
+        <param name="План" order="3" unit="Unit 3">Публикация и работа в комментариях</param>
+        <!-- Формат и методы обучения -->
+        <param name="Формат обучения">Самостоятельно</param>
+        <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+        <param name="Есть вебинары">false</param>
+        <param name="Есть домашние работы">false</param>
+        <param name="Есть видеоуроки">true</param>
+        <param name="Есть текстовые уроки">true</param>
+        <param name="Есть тренажеры">false</param>
+        <param name="Есть сообщество">false</param>
+        <!-- Параметры курса -->
+        <param name="Сложность">Для новичков</param>
+        <!-- Параметры курса -->
+        <param name="Тип обучения">Курс</param>
+        <!-- Возможные значения - "Курс" или "Профессия" -->
+        <param name="Есть бесплатная часть">true</param>
+        <!-- Описание курса -->
+        <picture>https://i.postimg.cc/WzCgfLGS/Frame-2417.png</picture>
+        <description>Какие темы статей заходят на VC, как писать интересные материалы и что нужно сделать, чтобы статья набрала хорошие охваты.</description>
+</offer>
+<offer id="np-pro">
+    <name>Научим писать. Продвинутый курс</name>
+    <url>https://sdelaem.agency/courses/letters-how-to-write</url>
+    <categoryId>507</categoryId>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s2</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>7990</price>
+    <currencyId>RUR</currencyId>
+    <param name="Оплата в рассрочку" unit="месяц">12</param>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="месяц">1</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Общие советы</param>
+    <param name="План" order="2" unit="Unit 2">Форматы контента</param>
+    <param name="План" order="3" unit="Unit 3">Копаем глубже</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">false</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">false</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">false</param>
+    <!-- Параметры курса -->
+    <param name="Сложность">Для опытных</param>
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/28jhjfv9/Frame-2418.png</picture>
+    <description>Большой курс по копирайтингу от агентства «Сделаем». Рассказываем, как писать качественные тексты для бизнеса, составлять контент-план, анализировать эффективность работы и многое другое.</description>
+</offer>
+<offer id="visishka">
+    <name>Висишка</name>
+    <url>https://sdelaem.agency/courses/nauchim-vc</url>
+    <categoryId>507</categoryId>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s2</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>5990</price>
+    <currencyId>RUR</currencyId>
+    <param name="Оплата в рассрочку" unit="месяц">12</param>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="месяц">1</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Аудитория VC: что ей нравится</param>
+    <param name="План" order="2" unit="Unit 2">Как придумать интересную и перспективную тему статьи</param>
+    <param name="План" order="3" unit="Unit 3">Пошаговый алгоритм работы над статьей</param>
+    <param name="План" order="4" unit="Unit 4">Публикация статьи и работа в комментариях</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">false</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">true</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">true</param>
+    <!-- Параметры курса -->
+    <param name="Сложность">Для опытных</param>
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/Bvy5V7VZ/Frame-2414-1.png</picture>
+    <description>Курс по статьям на VC.ru. Прикладное руководство: от темы до публикации и продвижения.</description>
+</offer>
+<offer id="kontent-po-zayavkam">
+    <name>Контент по заявкам</name>
+    <url>https://sdelaem.agency/courses/kontent-po-zayavkam</url>
+    <categoryId>506</categoryId>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s2</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>15990</price>
+    <currencyId>RUR</currencyId>
+    <param name="Оплата в рассрочку" unit="месяц">12</param>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="месяц">1</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Раздел 1. Фундамент</param>
+    <param name="План" order="2" unit="Unit 2">Раздел 2. Инструменты</param>
+    <param name="План" order="3" unit="Unit 3">Раздел 3. Система</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">false</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">true</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">true</param>
+    <!-- Параметры курса -->
+    <param name="Сложность">Для опытных</param>
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/Yq6J99Wp/Group-43.png</picture>
+    <description>Большой курс по контент-маркетингу — от общей концепции и отдельных инструментов до лидов и продаж.</description>
+</offer>
+<offer id="figma">
+    <name>Прототипы в фигме</name>
+    <url>https://sdelaem.agency/courses/prototypes</url>
+    <categoryId>405</categoryId>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s2</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>5990</price>
+    <currencyId>RUR</currencyId>
+    <param name="Оплата в рассрочку" unit="месяц">12</param>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="месяц">1</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Установка «Фигмы»</param>
+    <param name="План" order="2" unit="Unit 2">Разбор 18 cамых распространенных экранов лендингов</param>
+    <param name="План" order="3" unit="Unit 3">Взаимодействие между редактором, дизайнером и заказчиком</param>
+    <param name="План" order="4" unit="Unit 4">Дизайн для недизайнеров</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">false</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">true</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">true</param>
+    <!-- Параметры курса -->
+    <param name="Сложность">Для новичков</param>    
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/TY1D2ySb/Frame-1484-1.png</picture>
+    <description>Как делать прототипы лендингов в Фигме — такие, за которые заказчики и их дизайнеры будут вас любить и обожать.</description>
+</offer>
+<offer id="how-to-edit">
+    <name>Научим редактировать</name>
+    <url>https://sdelaem.agency/courses/how-to-edit</url>
+    <categoryId>507</categoryId>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s2</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>10990</price>
+    <currencyId>RUR</currencyId>
+    <param name="Оплата в рассрочку" unit="месяц">12</param>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="месяц">1</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Раздел 1. Перед тем, как редактировать</param>
+    <param name="План" order="2" unit="Unit 2">Раздел 2. Редактура первой очереди</param>
+    <param name="План" order="3" unit="Unit 3">Раздел 3. Редактура второй очереди</param>
+    <param name="План" order="4" unit="Unit 4">Раздел 4. Правочки</param>
+    <param name="План" order="5" unit="Unit 5">Раздел 5. Практика</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">false</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">true</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">false</param>
+    <!-- Параметры курса -->
+    <param name="Сложность">Для опытных</param>
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/gjCXBsDP/Frame-2419.png</picture>
+    <description>30 уроков о том, как выпускать тексты руками авторов — без срыва дедлайнов, сотен комментариев и нервов.</description>
+</offer>
+<offer id="neurozeh">
+    <name>Нейроцех</name>
+    <url>https://sdelaem.agency/courses/neurozeh</url>
+    <category id="899" parentId="800">Разное</category>
+    <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+    <set-ids>s2</set-ids>
+    <!-- Можно указать несколько наборов через запятую -->
+    <!-- Общая цена курса -->
+    <price>9990</price>
+    <currencyId>RUR</currencyId>
+    <!-- Сроки курсов -->
+    <param name="Продолжительность" unit="год">1</param>
+    <!-- Программа обучения -->
+    <param name="План" order="1" unit="Unit 1">Раздел 1. Перед тем, как редактировать</param>
+    <param name="План" order="2" unit="Unit 2">Раздел 2. Редактура первой очереди</param>
+    <param name="План" order="3" unit="Unit 3">Раздел 3. Редактура второй очереди</param>
+    <param name="План" order="4" unit="Unit 4">Раздел 4. Правочки</param>
+    <param name="План" order="5" unit="Unit 5">Раздел 5. Практика</param>
+    <!-- Формат и методы обучения -->
+    <param name="Формат обучения">Самостоятельно</param>
+    <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+    <param name="Есть вебинары">true</param>
+    <param name="Есть домашние работы">false</param>
+    <param name="Есть видеоуроки">true</param>
+    <param name="Есть текстовые уроки">true</param>
+    <param name="Есть тренажеры">false</param>
+    <param name="Есть сообщество">true</param>
+    <!-- Параметры курса -->
+    <param name="Тип обучения">Курс</param>
+    <!-- Возможные значения - "Курс" или "Профессия" -->
+    <param name="Есть бесплатная часть">true</param>
+    <!-- Описание курса -->
+    <picture>https://i.postimg.cc/KYxWnT9w/Frame-2202-1.png</picture>
+    <description>Одна подписка, чтобы брать максимум от искуственного интеллекта.</description>
+</offer>
+</offers>
+</shop>
+</yml_catalog>
